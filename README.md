@@ -1,4 +1,5 @@
 # al-folio
+npx prettier . --write
 
 <div align="center">
 
