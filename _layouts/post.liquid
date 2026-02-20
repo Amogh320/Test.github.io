@@ -61,11 +61,12 @@ layout: default
 
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
-      <div id="table-of-contents">
-        {% toc %}
-      </div>
-      <hr>
-    {% endif %}
+  <div id="table-of-contents">
+    <!-- Table of contents functionality is not available. Remove or use supported plugin. -->
+    <!-- {% toc %} -->
+  </div>
+  <hr>
+{% endif %}
     <div id="markdown-content">
       {{ content }}
     </div>
